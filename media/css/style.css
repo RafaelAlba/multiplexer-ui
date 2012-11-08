@@ -1,0 +1,186 @@
+body {
+  background-color: #eae8dc;
+  color: #3a220d;
+}
+
+h1 {
+  font-family: Georgia, HelveticaNeue, Helvetica, san-serif;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: "HelveticaNeueLTStd Bd", HelveticaNeue, Helvetica, san-serif;
+  font-size: 14px;
+}
+
+.content {
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-left: 60px;
+  width: 790px;
+}
+
+.header {
+  background-color: #64bdcb;
+  padding: 3px 3px 13px 3px;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  text-align: center;
+  width: 650px;
+}
+
+.logo {
+  color: #fff;
+  background:url(../img/header_pattern.png) repeat 0px 0px ;
+  padding: 20px 0px;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  text-shadow: 0 2px 0 #64bdcb;
+}
+
+.logo .left {
+  background:url(../img/balls_heading_left.png) no-repeat 0px 24px;
+  display: inline-block;
+  height: 81px;
+  width: 28px;
+  vertical-align: top;
+}
+
+.logo .center {
+  display: inline-block;
+  margin: 0px 30px;
+}
+
+.logo .right {
+  background:url(../img/balls_heading_right.png) no-repeat 0px 24px;
+  display: inline-block;
+  height: 81px;
+  width: 28px;
+  vertical-align: top;
+}
+
+.navbar {
+  color: #33838f;
+  font-family: "HelveticaNeueLTStd Roman", HelveticaNeue, Helvetica, san-serif;
+  font-size: 14px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 13px 0px 0px 0px;
+  padding-left: 0px;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 30px;
+  margin-left: 27px;
+  text-shadow: 0 1px 0 #fff;
+}
+.product {
+    padding-top: 24px;
+}
+.product-details p {
+  font-family: Georgia, HelveticaNeue, Helvetica, san-serif;
+  font-size: 14px;
+}
+
+.product-details {
+  float: left;
+  width: 380px;
+  padding-right: 20px;
+}
+
+.sidebar {
+  background-color: #d8d8c8;
+  float: left;
+  padding-left: 10px;
+  width: 244px;
+}
+
+.review {
+  clear: both;
+}
+
+.customer-reviews {
+  margin-bottom: 10px;
+}
+
+.review .avatar {
+  width: 41px;
+  float: left;
+  margin-right: 3px;
+}
+
+.review .comment {
+  margin-bottom: 10px;
+  width: 188px;
+  float: left;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.comment .arrow {
+  background: url(../img/arrow_left.png) no-repeat 0px 10px;
+  margin-right: -1px;
+  width: 7px;
+  height: 30px;
+  position: absolute;
+  top: 5px;
+  left: 0px;
+}
+
+.comment .message {
+  margin-left: 6px;
+  min-height: 21px;
+  background-color: #fff;
+  border: 1px solid #bbb8a4;
+  font-family: "HelveticaNeueLTStd Roman", HelveticaNeue, Helvetica, san-serif;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 10px;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+}
+
+.picture-frame {
+  background-color: #fff;
+  padding: 10px 10px 8px 10px;
+}
+
+.product-details .picture-frame {
+  -webkit-box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 10px rgba(100, 100, 100, 0.2);
+  -moz-box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 10px rgba(100, 100, 100, 0.2);
+  -ms-box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 10px rgba(100, 100, 100, 0.2);
+  -o-box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 10px  rgba(100, 100, 100, 0.2);
+	box-shadow: 0 0px 0 #5b5b5b inset, 0 5px 10px rgba(100, 100, 100, 0.2);
+}
+
+.related-products .picture-frame {
+  display: inline-block;
+  margin-right: 9px;
+  margin-bottom: 9px;
+}
+
+
+/* clearfix section */
+.product,
+.customer-reviews {
+  *zoom: 1;
+}
+.product:before,
+.product:after,
+.customer-reviews:before,
+.customer-reviews:after {
+  display: table;
+  content: "";
+}
+.product:after,
+.customer-reviews:after {
+  clear: both;
+}
